@@ -10,4 +10,5 @@ Contact jonathan.henrich@uni-goettingen.de for questions
 
 
 ``training_data/forests/labeled_forest1.npy``\
-``training_data/forests/labeled_forest2.npy``
+``training_data/forests/labeled_forest2.npy``\
+``...``
