@@ -39,7 +39,7 @@ Depending on the specific gpu of your system, you might need to adjust the spcon
 ## Data
 
 The dataset as well as trained models can be found at [this url](https://doi.org/10.25625/VPMPID).\
-To download the data, we recommend using the script tree_learn/util/download.py. Here, we list out the commands to download the data in either the npz or the las format:
+To download the data, we recommend using the script ``tree_learn/util/download.py``. Here, we list out the commands to download the data in either the npz or the las format:
 
 | Data        | Download                                             | 
 | ----------- | :----------------------------------------------------------- |
