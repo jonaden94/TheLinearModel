@@ -34,7 +34,7 @@ To set up the environment we recommend Conda. If Conda is set up and activated, 
 source setup/setup.sh
 ```
 
-Depending on the specific gpu of your system, you might need to adjust the spconv version specified in setup/requirements.txt.
+Depending on the specific gpu of your system, you might need to adjust the spconv version specified in ``setup/requirements.txt``.
 
 ## Data
 
