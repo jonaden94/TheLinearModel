@@ -125,4 +125,4 @@ python tools/evaluation/evaluate.py --config configs/evaluation/evaluate.yaml
 * To take a look at the evaluation results, we prepared a notebook that can be found at ``tools/evaluation/evaluation.ipynb``
 
 ## Acknowledgements
-Code is built based on [SoftGroup](https://github.com/thangvubk/SoftGroup) and [spconv](https://github.com/traveller59/spconv)
+Code is built based on [SoftGroup](https://github.com/thangvubk/SoftGroup) and [spconv](https://github.com/traveller59/spconv).
