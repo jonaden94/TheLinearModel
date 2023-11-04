@@ -55,10 +55,10 @@ To download the data, we recommend using the script tree_learn/util/download.py.
 
 ## Segmentation pipeline
 
-To begin with, it should be noted that all functionality in this repository can be configured using the config files located in the configs folder.  
-We do not enforce a specific folder structure with regard to where data (e.g. point clouds or pre-trained models) is stored. You can save them where it is most suitable for you.  
-To ensure that the functionality of this repository works without errors, all config arguments pertaining to data paths must be changed to conform with where you store your data.  
-Next we explain how to obtain segmentation results of a forest point cloud into understory and trees. You need to perform the following three steps:  
+To begin with, it should be noted that all functionality in this repository can be configured using the config files located in the configs folder.
+We do not enforce a specific folder structure with regard to where data (e.g. point clouds or pre-trained models) is stored. You can save them where it is most suitable for you.
+To ensure that the functionality of this repository works without errors, all config arguments pertaining to data paths must be changed to conform with where you store your data.
+Next we explain how to obtain segmentation results of a forest point cloud into understory and trees. You need to perform the following three steps:
 
 *1\) Download pre-trained models*
 * Follow the instructions given above to obtain the pre-trained models.
