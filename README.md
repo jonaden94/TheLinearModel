@@ -95,8 +95,7 @@ python tools/train_data_gen/gen_pointwise_train_data.py --config configs/train_d
 ```
 *2\) Generate validation data for semantic and offset prediction:*
 * The forest point cloud used to generate validation data must fulfil the same properties as for the training data.
-* The folder structure is also the same:
-``validation_data/forests/validation_forest.npy``
+* The folder structure is also the same: ``validation_data/forests/validation_forest.npy``
 * To generate tiles used for validation, run the following command:
 ```
 python tools/train_data_gen/gen_pointwise_val_data.py --config configs/train_data_gen/pointwise_val_data_gen.yaml
