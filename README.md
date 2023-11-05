@@ -14,8 +14,6 @@ Contact jonathan.henrich@uni-goettingen.de for questions
 
 
 
-
-
 # TreeLearn: A Comprehensive Deep Learning Method for Segmenting Individual Trees from Forest Point Cloud
 
 ![Architecture](./method.png)
@@ -68,7 +66,7 @@ Next we explain how to obtain segmentation results of a forest point cloud into 
 *2\) Prepare forest point cloud to be segmented*
 * The forest point cloud must be provided either as a npy file (contains numpy array) or a space-delimited txt file.
 * The data must consist of N rows and three columns where N is the number of points in the point cloud and the columns are the x, y and z coordinates of the forest.
-* The coordinates must be provided in cm scale and have a minimum resolution of one point per 10 cm<sup>3</sup>.
+* The coordinates must be provided in meter scale and have a minimum resolution of one point per (0.1 m)<sup>3</sup>.
 * Ground and understory points must still be part of the point cloud. Only rough noise filtering has to be performed in advance (e.g. to remove scanned particles in the air).
 * The point cloud file must be placed in a folder 'forests' located in another folder that constitutes the base directory containing all pipeline-related output: ``pipeline_output/forests/your_filename.npy``
 * We recommend retaining an edge around the point cloud that is of interest. E.g. for an area of interest of 100 m x 100 m, retain an edge of ~10 m to each side so that input is 120 m x 120 m.
